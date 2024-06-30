@@ -1,0 +1,246 @@
+* {
+    transition: linear 0.5s;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav > ul > li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.main-section {
+    background-image: url("img/home1.jpg") ;
+    background-size: cover;
+    opacity: 0.7;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-content {
+    color: white;
+    font-size: x-large;
+    font-style: italic;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main-content button {
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.about-section {
+    color: white;
+}
+
+.about-section > h1 {
+    color: red;
+    margin: 40px;
+    text-align: center;
+    font-size:x-large;
+}
+
+.about-inner-section {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.about-content {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;font-size: xx-large;
+    padding: 20px;
+    text-align: center;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.image-gallery > h1 {
+    color: red;
+    margin: 40px;
+    text-align: center;
+    font-size:x-large;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+}
+
+.box .content {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(100%);
+}
+
+.box:hover .content {
+    transform: translateY(0);
+}
+
+.box:hover img {
+    transform: translateY(-100%);
+}
+
+.team-gallery h1 {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: xx-large;
+    padding: 50px;
+}
+
+.team-slider {
+    display: flex;
+}
+
+.team-image {
+    width: 30%;
+}
+
+.contact-section > h1 {
+    color: red;
+    margin: 20px;
+    text-align: center;
+    font-size:x-large;
+}
+
+.contact-inner-section {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+form {
+    background-color: black;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+form button {
+    width: 100%;
+    background-color: red;
+}
+
+input, textarea{
+    width: 100%;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+@media  screen and (max-width: 655px) {
+     footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+     }   
+}
+
+footer  h1{
+    color: white;
+    font-size: x-large;
+}
+
+footer p {
+    color: white;
+}
+
+.icons {
+    color: white;
+}
+
+.fa-brands {
+    margin: 2px;
+    padding-right: 4px;
+    border-right: 2px solid gray;
+}
+
+.last-icon {
+    border-right: none;
+}
+
+.footer-avengers {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.footer-links ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.footer-links ul li {
+    list-style-type: none;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
+.footer-services ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    list-style-type: none; 
+}
+
+.footer-services ul li {
+    color: white;
+    font-size: x-large;
+}

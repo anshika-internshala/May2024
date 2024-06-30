@@ -1,0 +1,16 @@
+p {
+    background-color: yellow;
+    border: 2px dashed black;
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
+
+.para {
+    color: red;
+}
+
+#hello {
+    color: brown;
+}

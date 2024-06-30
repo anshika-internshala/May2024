@@ -1,0 +1,30 @@
+.container {
+    width: 100vw;
+    height: 2000px;
+    background-color: brown;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.box1 {
+    background-color: aqua;
+}
+
+.box2 {
+    background-color: aquamarine;
+}
+
+.box3{
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+.box4 {
+    background-color: blueviolet;
+    display: inline-block;
+}
